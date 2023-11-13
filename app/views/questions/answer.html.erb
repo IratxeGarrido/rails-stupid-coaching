@@ -1,0 +1,15 @@
+<div class="question-container">
+  <div class="question-card">
+  <div class="alert alert-primary" role="alert">
+      <p><%= @question %></p>
+      <p>- You</p>
+  </div>
+  <div class="alert alert-secondary" role="alert">
+    <p><%= @answer %></p>
+    <p>- Your Coach</p>
+  </div>
+  <div>
+    <%= link_to 'Ask a new question', ask_path, class: "btn btn-primary" %>
+  </div>
+</div>
+</div>
