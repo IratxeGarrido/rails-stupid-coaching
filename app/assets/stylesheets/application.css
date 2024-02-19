@@ -17,27 +17,27 @@
  .question-card {
   width: 500px;
   margin: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
  }
 
  .question-container {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
  }
 
  .form-container {
   display: flex;
   justify-content: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex-direction: row;
  }
 
  .form-input {
   gap: 16px;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
  }
 
  .form-button {
-  border: 1px solid green;
+  /* border: 1px solid green; */
  }
